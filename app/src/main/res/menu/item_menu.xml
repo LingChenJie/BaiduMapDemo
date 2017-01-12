@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_map_common"
+        app:showAsAction="never"
+        android:title="普通地图"/>
+
+    <item
+        android:id="@+id/menu_map_site"
+        app:showAsAction="never"
+        android:title="卫星地图"/>
+
+    <item
+        android:id="@+id/menu_map_traffic"
+        app:showAsAction="never"
+        android:title="实时交通(off)"/>
+
+    <item
+        android:id="@+id/menu_map_my_address"
+        app:showAsAction="never"
+        android:title="我的位置"/>
+
+    <item
+        android:id="@+id/menu_location_mode_normal"
+        app:showAsAction="never"
+        android:title="正常模式"/>
+
+    <item
+        android:id="@+id/menu_location_mode_following"
+        app:showAsAction="never"
+        android:title="俯视模式"/>
+
+    <item
+        android:id="@+id/menu_location_mode_compass"
+        app:showAsAction="never"
+        android:title="罗盘模式"/>
+
+    <item
+        android:id="@+id/menu_add_overlays"
+        app:showAsAction="never"
+        android:title="添加覆盖物"/>
+
+    <item
+        android:id="@+id/menu_add_over_line"
+        app:showAsAction="never"
+        android:title="覆盖物之间添加连线"/>
+
+    <item
+        android:id="@+id/menu_line_act"
+        app:showAsAction="never"
+        android:title="跳转lineActivity"/>
+
+
+</menu>
